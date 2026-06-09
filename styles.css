@@ -521,6 +521,11 @@ p { text-wrap: pretty; }
 
 /* ---------- CTA STRIP ---------- */
 .cta .container { text-align: center; }
+.cta .container.deep {
+  background-image: linear-gradient(rgba(33,26,18,0.86), rgba(33,26,18,0.92)), url('assets/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .cta h2 { font-size: clamp(1.9rem, 4vw, 2.7rem); margin-bottom: 14px; }
 .cta .lede { max-width: 560px; margin: 0 auto 28px; }
 .cta-actions { display: flex; flex-wrap: wrap; gap: 14px; justify-content: center; }
